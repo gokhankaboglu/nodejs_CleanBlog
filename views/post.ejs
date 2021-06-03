@@ -18,6 +18,9 @@
               <a href="#">Start Bootstrap</a>
               on <%= post.dateCreated %></span>
           </div>
+          <a type="submit" class="btn btn-primary" id="sendMessageButton" href="/posts/edit/<%= post._id %>">Update</a>
+          <a href="/posts/<%= post._id %>?_method=DELETE" class="btn btn-danger tm-btn-animate tm-btn-download tm-icon-download"
+            onclick="return confirm('ARE YOU SURE?')"><span>Delete Post</span></a>
         </div>
       </div>
     </div>
