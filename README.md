@@ -1,3 +1,3 @@
 ﻿# Clean-Blog
 
-Demo https://clean-blog-01.herokuapp.com/
+HEROKU app https://clean-blog-01.herokuapp.com/
